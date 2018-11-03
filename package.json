@@ -12,7 +12,17 @@
     "express",
     "boilerplate"
   ],
-  "author": "Erin Rivas",
+	"author": {
+		"name" : "Erin Rivas",
+		"email" : "contact@atomicbear.com",
+		"url" : "http://atomicbear.com/"
+	},
+	"repository": {
+		"type" : "git",
+		"url" : "https://github.com/karnthis/yaebp.git"
+	},
+	"homepage": "https://github.com/karnthis/yaebp",
+	"bugs" : "https://github.com/karnthis/yaebp/issues",
   "license": "MIT",
   "dependencies": {
 		"express": "*",
