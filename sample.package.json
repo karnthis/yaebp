@@ -1,0 +1,36 @@
+{
+	"name": "newproject",
+	"version": "1.0.2",
+	"description": "Cool Description",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index.js",
+		"dev": "nodemon index.js"
+	},
+	"keywords": [
+		"express"
+	],
+	"author": {
+		"name" : "Your Name",
+		"email" : "contact@sample.com",
+		"url" : "http://sample.com/"
+	},
+	"repository": {
+		"type" : "git",
+		"url" : "https://github.com/USERNAME/REPO.git"
+	},
+	"homepage": "https://github.com/USERNAME/REPO",
+	"bugs" : "https://github.com/USERNAME/REPO/issues",
+	"license": "MIT",
+	"dependencies": {
+		"express": "*",
+		"dotenv": "*",
+		"cors": "*",
+		"body-parser": "*",
+		"mongoose": "*"
+	},
+	"devDependencies": {
+		"nodemon": "*"
+	}
+}

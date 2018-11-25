@@ -12,7 +12,7 @@ require('dotenv').config();
 
 const MONGO_URI = process.env.IS_PROD.length ? process.env.MONGO_PROD_HOST : process.env.MONGO_TEST_HOST ;
 
-mongoose.connect(MONGO_URI)
+mongoose.connect(MONGO_URI, { useNewUrlParser: true })
 	.catch(e => console.log(e));
 let db = mongoose.connection;
 db.on('error', (err) => {

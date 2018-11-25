@@ -1,17 +1,18 @@
 {
-  "name": "expressboilerplate",
-  "version": "1.0.2",
-  "description": "express stater boilerplate",
-  "main": "index.js",
-  "scripts": {
+	"name": "expressboilerplate",
+	"version": "1.0.2",
+	"description": "express starter boilerplate",
+	"main": "index.js",
+	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "node index.js",
-		"dev": "nodemon index.js"
-  },
-  "keywords": [
-    "express",
-    "boilerplate"
-  ],
+		"dev": "nodemon index.js",
+		"setup": "setup.sh"
+	},
+	"keywords": [
+		"express",
+		"boilerplate"
+	],
 	"author": {
 		"name" : "Erin Rivas",
 		"email" : "contact@atomicbear.com",
@@ -23,15 +24,15 @@
 	},
 	"homepage": "https://github.com/karnthis/yaebp",
 	"bugs" : "https://github.com/karnthis/yaebp/issues",
-  "license": "MIT",
-  "dependencies": {
+	"license": "MIT",
+	"dependencies": {
 		"express": "*",
 		"dotenv": "*",
 		"cors": "*",
 		"body-parser": "*",
-		"mongoose": "*"		
-  },
-  "devDependencies": {
-    "nodemon": "*"
-  }
+		"mongoose": "*"
+	},
+	"devDependencies": {
+		"nodemon": "*"
+	}
 }
